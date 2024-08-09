@@ -1,0 +1,20 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.semi": false,
+    "[javascript]": {
+      "editor.formatOnSave": false
+    },
+    "eslint.alwaysShowStatus": true,
+    // tell the ESLint plugin to run on save
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "[liquid]": {
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
+        "editor.formatOnSave": true
+    },
+    "cSpell.words": [
+      
+    ]
+  }
+  

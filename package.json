@@ -1,0 +1,20 @@
+{
+  "name": "voodoo-clean",
+  "version": "1.0.0",
+  "description": "[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwindcss": "npx tailwindcss -i ./src/tailwind.css -o ./assets/app.css --watch",
+    "shopify:theme:dev": "shopify theme dev",
+    "shopify:start": "npm run shopify:theme:dev && tailwindcss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.5.0",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.7"
+  }
+}
